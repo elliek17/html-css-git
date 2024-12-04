@@ -1,1 +1,32 @@
 /* Try different box model properties below */
+body{
+    background-color: antiquewhite;
+}
+.site-header{
+    color: white;
+    background-color: blue;
+    margin-bottom: 0;
+    width: 100%;
+    padding: 1rem;
+}
+.site-footer p{
+    font-size: 12px;
+    text-align: center;
+}
+.message{
+    background-color: #fff;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+.message__author{
+    font-weight: bold;
+    color: grey;
+}
+.message__time{
+    /*border: red 1px solid;*/
+    color: grey;
+    font-weight: lighter;
+}
+.message:last-child{
+    box-shadow: 4px 4px 0 #dba944;
+}
