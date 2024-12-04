@@ -1,1 +1,14 @@
-/* Add your CSS code below */
+a{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+time{
+    font-size: 0.9rem;
+}
+.message--unread{
+    border-left: blue 1px solid;
+}
+.message:has(.message__time--old){
+    opacity: 0.5;
+}
